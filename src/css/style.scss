@@ -1,0 +1,15 @@
+body{
+    ul, li{
+        display: block;
+        padding: 0;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    @import './app/header.scss';
+    @import './app/about.scss';
+    @import './app/footer.scss';
+}
+

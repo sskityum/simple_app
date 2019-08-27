@@ -1,0 +1,12 @@
+@import './common.scss';
+
+.about{
+    max-width: 1024px;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+
+    &__title{
+        @include title(#55ff);
+    }
+}

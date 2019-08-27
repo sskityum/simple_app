@@ -1,0 +1,15 @@
+@import './common.scss';
+
+.header{
+    width: 100%;
+
+    nav{
+        .menu{
+            display: flex;
+        }
+    }
+
+    &__title{
+        @include title(#000);
+    }
+}
