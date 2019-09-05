@@ -8,8 +8,28 @@ body{
         list-style-type: none;
     }
 
+    h3{
+        display: inline-block;
+        // margin-left: 30px;
+        margin-right: 100px;
+        width: 100px;
+        height: 20px;
+        text-align: left;
+        padding: 0 0 6px 10px;
+        border-left: 10px solid #A6D8CB;
+        border-bottom: 2px solid #A6D8CB;
+    }
+        .timer_display{
+            color: red;
+        }
+
+        .counter_display{
+            color: blue;
+        }
+
     @import './app/header.scss';
     @import './app/about.scss';
+    @import './app/btn.scss';
     @import './app/footer.scss';
 }
 
